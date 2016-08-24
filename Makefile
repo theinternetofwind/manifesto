@@ -10,7 +10,7 @@ deploy: deploy_on_github
 
 deploy_on_github:
 	git push origin master
-	git subtree push --prefix optimized origin gh-pages
+	git subtree push -f --prefix optimized origin gh-pages
 
 node_modules: package.json
 	npm install
