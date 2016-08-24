@@ -1,0 +1,8 @@
+@mixin typo($size, $dir) {
+  font: {
+    size: $size;
+  }
+  text: {
+    align: $dir;
+  }
+}

@@ -1,28 +1,88 @@
+#barriers h2 {
+  font-size: 2.2em;
+  font-family: 'Anonymous Pro', monospace;
+  text-align: center;
+  color: #999;
+}
+
+#barriers .box img {
+  max-width: 100%;
+}
+
+#barriers .box .title {
+  font-size: 1.2em;
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: bold;
+}
+
+#barriers .box .desc {
+  font-size: 1em;
+  font-family: 'Anonymous Pro', monospace;
+}
+
+#barriers .box .more {
+  font-size: 1em;
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: bold;
+}
+
 .cta__btn {
   text-align: center;
 }
 
+#barriers h2 {
+  font-size: 2.2em;
+  font-family: 'Anonymous Pro', monospace;
+  text-align: center;
+  color: #999;
+}
+
+#barriers .box img {
+  max-width: 100%;
+}
+
+#barriers .box .title {
+  font-size: 1.2em;
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: bold;
+}
+
+#barriers .box .desc {
+  font-size: 1em;
+  font-family: 'Anonymous Pro', monospace;
+}
+
+#barriers .box .more {
+  font-size: 1em;
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: bold;
+}
+
+section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#summary img {
+  max-width: 100%;
+}
+
 #summary h1 {
   font-family: 'Anonymous Pro', monospace;
-  font-size: 2em;
+  font-size: 2.6em;
+  font-weight: normal;
   text-align: center;
 }
 
 #summary p {
   font-family: 'Anonymous Pro', monospace;
-  font-size: 0.9em;
+  font-size: 1.4em;
   text-align: center;
+  line-height: 1.5em;
 }
 
 #summary ul {
-  border: 1px solid #ccc;
   font-family: 'Anonymous Pro', monospace;
-  font-size: 1.2em;
+  font-size: 1.4em;
   text-align: left;
-  list-style: none;
-  padding-left: 10px;
-}
-
-#summary ul li {
-  margin-bottom: 20px;
 }
