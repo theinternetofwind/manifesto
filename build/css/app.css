@@ -1,36 +1,28 @@
-body {
-  font-family: 'Anonymous Pro', monospace;
-}
-
-/*
-@font-face {
-    font-family: 'template';
-    src: url('../webfonts/template.eot');
-    src: url('../webfonts/template.eot?#iefix') format('embedded-opentype'),
-         url('../webfonts/template.woff') format('woff'),
-         url('../webfonts/template.ttf') format('truetype'),
-         url('../webfonts/template.svg#template') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-*/
 .cta__btn {
   text-align: center;
 }
 
-#summary {
+#summary h1 {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 2em;
   text-align: center;
 }
 
-#summary .summary__title {
-  font-size: 42px;
+#summary p {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 0.9em;
+  text-align: center;
 }
 
-#summary .summary__text {
-  font-size: 15px;
-}
-
-#summary .summary__ul {
-  font-size: 21px;
+#summary ul {
+  border: 1px solid #ccc;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 1.2em;
   text-align: left;
+  list-style: none;
+  padding-left: 10px;
+}
+
+#summary ul li {
+  margin-bottom: 20px;
 }

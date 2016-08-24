@@ -1,26 +1,65 @@
 #summary {
-  text: {
-    align: center;
-  }
-
-  .summary__title {
+  h1 {
     font: {
-      size: 42px;
+      family: 'Anonymous Pro', monospace;
+      size: 2.4em;
+    }
+    text: {
+      align: center;
     }
   }
 
-  .summary__text {
+  p {
     font: {
-      size: 15px;
+      family: 'Anonymous Pro', monospace;
+      size: 1.4em;
+    }
+    text: {
+      align: center;
+    }
+    line : {
+      height 1.5em;
     }
   }
 
-  .summary__ul {
+  ul {
+    border: 1px solid #ccc;
     font: {
-      size: 21px;
+      family: 'Anonymous Pro', monospace;
+      size: 1em;
     }
     text: {
       align: left;
+    }
+    list-style: none;
+
+    padding: {
+      left: 10px;
+
+    }
+
+    li {
+      margin: {
+        bottom: 15px;
+      }
+    }
+
+    li.odd {
+      background: {
+        color: #eee;
+      }
+    }
+    li.even {
+      background: {
+        color: #ccc;
+      }
+    }
+    li.first {
+    }
+    li.last {
+      margin: {
+        bottom: 0;
+      }
     }
   }
 }
