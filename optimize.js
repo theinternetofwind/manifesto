@@ -7,13 +7,13 @@ var htmlMinifier = require("metalsmith-html-minifier");
 
 Metalsmith(__dirname)
   .metadata({
-    title: "WindStack IVS Website",
+    title: "The Internet of Wind Manifesto",
     description: "Optimized",
     generator: "Metalsmith",
-    url: "http://www.windstack.io/"
+    url: "http://www.internetofwind.org"
   })
   .source('./build')
-  .destination('./optimized')
+  .destination('./docs')
   .clean(true)
   .use(htmlMinifier()) // Use the default options
   .use(uglifyjs({

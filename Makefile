@@ -3,7 +3,7 @@ develop: node_modules
 	node develop.js
 
 optimize: node_modules
-	rm -rf optimize
+	rm -rf docs
 	node optimize.js
 
 node_modules: package.json
