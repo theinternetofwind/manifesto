@@ -13,7 +13,7 @@ Metalsmith(__dirname)
     url: "http://www.internetofwind.org"
   })
   .source('./build')
-  .destination('./docs')
+  .destination('./optimized')
   .clean(true)
   .use(htmlMinifier()) // Use the default options
   .use(uglifyjs({
