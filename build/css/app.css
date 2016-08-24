@@ -1,3 +1,7 @@
+body {
+  font-family: 'Anonymous Pro', monospace;
+}
+
 /*
 @font-face {
     font-family: 'template';
@@ -10,3 +14,23 @@
     font-style: normal;
 }
 */
+.cta__btn {
+  text-align: center;
+}
+
+#summary {
+  text-align: center;
+}
+
+#summary .summary__title {
+  font-size: 42px;
+}
+
+#summary .summary__text {
+  font-size: 15px;
+}
+
+#summary .summary__ul {
+  font-size: 21px;
+  text-align: left;
+}
