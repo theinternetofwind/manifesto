@@ -1,37 +1,25 @@
-#barriers {
-  h2 {
+#goldmine {
+  .title {
     font: {
-      size: 2.2em;
+      size:1.2em;
+      family: 'Anonymous Pro', monospace;
+      weight: bold;
+    }
+  }
+  .desc {
+    font: {
+      size:1em;
       family: 'Anonymous Pro', monospace;
     }
-    text: {
-      align: center;
+    line: {
+      height: 1.6em;
     }
-    color: #999;
   }
-  .box {
-    img {
-      max-width: 100%;
-    }
-    .title {
-      font: {
-        size:1.2em;
-        family: 'Anonymous Pro', monospace;
-        weight: bold;
-      }
-    }
-    .desc {
-      font: {
-        size:1em;
-        family: 'Anonymous Pro', monospace;
-      }
-    }
-    .more {
-      font: {
-        size:1em;
-        family: 'Anonymous Pro', monospace;
-        weight: bold;
-      }
+  .more {
+    font: {
+      size: 1em;
+      family: 'Anonymous Pro', monospace;
+      weight: bold;
     }
   }
 }

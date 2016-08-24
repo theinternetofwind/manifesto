@@ -1,0 +1,29 @@
+#hero {
+  img {
+    max-width: 100%;
+  }
+
+  h1 {
+    font: {
+      family: 'Anonymous Pro', monospace;
+      size: 2.6em;
+      weight: normal;
+    }
+    text: {
+      align: center;
+    }
+  }
+
+  p {
+    font: {
+      family: 'Anonymous Pro', monospace;
+      size: 1.4em;
+    }
+    text: {
+      align: center;
+    }
+    line : {
+      height: 1.5em;
+    }
+  }
+}

@@ -10,3 +10,18 @@ section {
     bottom: 40px;
   }
 }
+
+h2 {
+  font: {
+    size: 2.2em;
+    family: 'Anonymous Pro', monospace;
+  }
+  text: {
+    align: center;
+  }
+  color: #999;
+}
+
+img {
+  max-width: 100%;
+}
