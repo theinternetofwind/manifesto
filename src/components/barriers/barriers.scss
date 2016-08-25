@@ -1,18 +1,6 @@
 #barriers {
-  h2 {
-    font: {
-      size: 2.2em;
-      family: 'Anonymous Pro', monospace;
-    }
-    text: {
-      align: center;
-    }
-    color: #999;
-  }
+
   .box {
-    img {
-      max-width: 100%;
-    }
     .title {
       font: {
         size:1.2em;
@@ -25,10 +13,13 @@
         size:1em;
         family: 'Anonymous Pro', monospace;
       }
+      line: {
+        height: 1.6em;
+      }
     }
     .more {
       font: {
-        size:1em;
+        size: 1em;
         family: 'Anonymous Pro', monospace;
         weight: bold;
       }
