@@ -1,7 +1,7 @@
-#barriers {
-  background-color: #eee;
-}
-
+/*--------------------- WEBFONTS -------------------*/
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+/*-------------------- COMPONENTS ------------------*/
 #barriers .box .title {
   font-size: 1.2em;
   font-family: 'Anonymous Pro', monospace;
@@ -59,13 +59,6 @@
   max-width: 100%;
 }
 
-#hero h1 {
-  font-family: 'Anonymous Pro', monospace;
-  font-size: 2.6em;
-  font-weight: normal;
-  text-align: center;
-}
-
 #hero p {
   font-family: 'Anonymous Pro', monospace;
   font-size: 1.4em;
@@ -73,16 +66,38 @@
   line-height: 1.5em;
 }
 
+html {
+  background-color: #fafafa;
+}
+
+body {
+  color: #595358;
+}
+
 section {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-size: 2.6em;
+  text-align: center;
+  color: #a2faa3;
+}
+
 h2 {
   font-size: 2.2em;
-  font-family: 'Anonymous Pro', monospace;
   text-align: center;
-  color: #999;
+  color: #59c3c3;
 }
 
 img {
