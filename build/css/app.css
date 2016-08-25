@@ -1,3 +1,7 @@
+#barriers {
+  background-color: #eee;
+}
+
 #barriers .box .title {
   font-size: 1.2em;
   font-family: 'Anonymous Pro', monospace;
@@ -70,8 +74,8 @@
 }
 
 section {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 h2 {
