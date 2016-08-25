@@ -7,8 +7,7 @@ optimize: node_modules
 	node optimize.js
 
 deploy:
-	git push origin master
-	git push origin `git subtree split --prefix optimized master`:gh-pages --force
+	./check_and_deploy.sh
 
 node_modules: package.json
 	npm install
