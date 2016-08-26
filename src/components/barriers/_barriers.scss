@@ -1,27 +1,15 @@
 #barriers {
-  .box {
-    .title {
-      font: {
-        size:1.2em;
-        family: 'Anonymous Pro', monospace;
-        weight: bold;
-      }
-    }
-    .desc {
-      font: {
-        size:1em;
-        family: 'Anonymous Pro', monospace;
-      }
-      line: {
-        height: 1.6em;
-      }
-    }
-    .more {
-      font: {
-        size: 1em;
-        family: 'Anonymous Pro', monospace;
-        weight: bold;
-      }
+  .box {}
+  h3 {
+    @include t(1.4em, left);
+  }
+  p.desc {
+    @include p(1.2em, left);
+  }
+  p.more {
+    @include p(1.2em, left);
+    font: {
+      weight: 700;
     }
   }
 }

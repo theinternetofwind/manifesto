@@ -1,0 +1,29 @@
+#whoweare {
+  background: {
+    color: $cyan;
+  }
+  color: $white;
+  p {
+    @include p(1.3em, center);
+  }
+  ul {
+    @include p(1em, left);
+    li {
+    }
+  }
+  p.name {
+    @include p(1em, left);
+  }
+  p.citation {
+    @include t(3em, center);
+  }
+  p.citation-author {
+    @include t(1em, center);
+  }
+}
+
+@media screen and (min-width : 481px) and (max-width : 768px) {
+}
+
+@media screen and (max-width : 480px) {
+}

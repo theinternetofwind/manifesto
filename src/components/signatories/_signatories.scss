@@ -1,0 +1,11 @@
+#signatories {
+
+  .people {
+    p.name {
+      @include p(1.2em, center);
+    }
+    p.aim {}
+  }
+
+  .seeall {}
+}

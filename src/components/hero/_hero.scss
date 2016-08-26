@@ -4,15 +4,71 @@
   }
 
   p {
-    font: {
-      family: 'Anonymous Pro', monospace;
-      size: 1.4em;
+    @include p(1.4em, center);
+  }
+
+  .elements {
+    width:80%;
+    margin: 40px auto;
+    .element {
+      margin: {
+        top: 12px;
+        bottom: 12px;
+      }
+      min-height: 100px;
+      //border: 1px solid $lightGrey;
+      .icon {
+        background: rgba(255,255,255,.08);
+        width:100px;
+        height:100px;
+        float: left;
+        img {}
+      }
+      .desc {
+        @include p(1.3em, left);
+        margin: {
+          left: 120px;
+        }
+        padding: {
+          top: 15px;
+          right: 25px;
+        }
+        span.pBold {color: $cyan;}
+      }
     }
-    text: {
-      align: center;
+  }
+}
+
+@media screen and (min-width : 481px) and (max-width : 768px) {
+  .elements {
+    width: 100% !important;
+    .element {
+      .desc {
+      }
+      padding: {
+        bottom: 15px;
+        left: 25px;
+      }
     }
-    line : {
-      height: 1.5em;
+  }
+}
+
+@media screen and (max-width : 480px) {
+  .elements {
+    width: 100% !important;
+    .element {
+      .icon {
+        display: none;
+      }
+      .desc {
+        margin: {
+          left: 0 !important;
+        }
+        padding: {
+          bottom: 15px;
+          left: 25px;
+        }
+      }
     }
   }
 }

@@ -1,0 +1,21 @@
+@mixin resetUL() {
+  margin: {top: 0; right: 0; bottom: 0; left: 0;}
+  padding: {top: 0; right: 0; bottom: 0; left: 0;}
+}
+
+@mixin ulV() {
+  
+}
+
+@mixin ulH() {
+  @include resetUL();
+  display: block;
+  list: {
+    style: none;
+  }
+}
+
+@mixin liH() {
+  float: left;
+  display: inline;
+}

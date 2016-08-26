@@ -1,0 +1,69 @@
+#navigation {
+
+  $globalHeight: 70px;
+
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: $globalHeight;
+  background: {
+    color: $white;
+  }
+  border: {
+    bottom: 1px solid $lightGrey;
+  }
+
+  #logo {
+    height: $globalHeight;
+    float: left;
+  }
+
+  ul#menu {
+    height: $globalHeight;
+    @include ulH();
+    @include p(1.2em, center);
+    color: $cyan;
+    li {
+      @include liH();
+      padding-top: $globalHeight/2.8;
+      margin: {
+        right: 24px;
+      }
+    }
+    li.first {
+    }
+    li.last {
+      margin: {
+        right: 0;
+      }
+    }
+  }
+
+  ul#menu-mobile {
+    display: none;
+    @include resetUL();
+    width: 100%;
+    //display: none;
+    li {
+      @include p(1.4em, center);
+      display: block;
+      height: 50px;
+      background: {
+        color: $purpleGrey;
+      }
+    }
+  }
+}
+
+@media screen and (min-width : 481px) and (max-width : 768px) {
+  #navigation {
+    ul#menu {
+      display: none;
+    }
+    ul#menu-mobile {
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width : 480px) {}
