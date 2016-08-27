@@ -72,8 +72,7 @@ make optimize
 ```
 results are written in the folder /optimized
 
-DEPLOY
-------
+#### DEPLOY
 
 The webpage is deployed using github pages reading on gh-pages branch. Once completed and commited everything we want in the master, use
 
