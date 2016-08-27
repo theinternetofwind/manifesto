@@ -1,11 +1,18 @@
 #signatories {
-
-  .people {
-    p.name {
-      @include p(1.2em, center);
+  #signatures {
+    .signature {
+      min-height: 50px;
+      border: 1px solid $lightGrey;
+      margin: {
+        bottom:16px;
+        top: 16px;
+      }
+      p.name {
+        @include p(1.4em, center);
+      }
+      p.organization {@include p(1.1em, center);}
+      p.aim {@include p(1.1em, center);}
     }
-    p.aim {}
   }
-
   .seeall {}
 }

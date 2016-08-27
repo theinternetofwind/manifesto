@@ -10,8 +10,8 @@ body {
 
 section {
   padding: {
-    top: 20px;
-    bottom: 20px;
+    top: 40px;
+    bottom: 40px;
   }
 }
 
@@ -38,6 +38,9 @@ h1 {
 h2 {
   @include t(2.2em, center);
   color: $cyan;
+  margin: {
+    bottom: 15px;
+  }
 }
 
 img {

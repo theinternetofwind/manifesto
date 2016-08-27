@@ -44,6 +44,15 @@
   font-size: 1em;
   font-weight: 700;
   text-align: center;
+  overflow: hidden;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 20px;
+  display: block;
+  margin: 50px auto;
+  cursor: pointer;
+  background-color: transparent;
   position: relative;
   z-index: 10;
   left: 50%;
@@ -52,9 +61,35 @@
   width: 600px;
   height: 72px;
   margin-left: -300px;
-  border: none;
-  background-color: #59c3c3;
-  color: #fafafa;
+  border: 2px solid #a2faa3;
+  background-color: #595358;
+  color: #a2faa3;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+
+#cta .btn .layer {
+  height: 50px;
+  font-size: 24px;
+  position: absolute;
+  top: -72px;
+  width: 100%;
+  left: 0;
+  padding-top: 22px;
+  background-color: #a2faa3;
+  color: #595358;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+
+#cta .btn:hover .layer {
+  top: 0;
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -73,8 +108,10 @@
   }
 }
 
-#hero img {
-  max-width: 100%;
+#hero #ill {
+  width: 100%;
+  height: 320px;
+  background-color: #cdcdcd;
 }
 
 #hero p {
@@ -229,8 +266,8 @@ body {
 }
 
 section {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 h1,
@@ -258,22 +295,50 @@ h2 {
   font-weight: 700;
   text-align: center;
   color: #59c3c3;
+  margin-bottom: 15px;
 }
 
 img {
   max-width: 100%;
 }
 
-#signatories .people p.name {
-  font-size: 1.2em;
+#signatories #signatures .signature {
+  min-height: 50px;
+  border: 1px solid #cdcdcd;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+#signatories #signatures .signature p.name {
+  font-size: 1.4em;
   font-family: "Anonymous Pro", monospace;
   font-weight: 400;
   line-height: 1.68em;
   text-align: center;
 }
 
+#signatories #signatures .signature p.organization {
+  font-size: 1.1em;
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  line-height: 1.54em;
+  text-align: center;
+}
+
+#signatories #signatures .signature p.aim {
+  font-size: 1.1em;
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  line-height: 1.54em;
+  text-align: center;
+}
+
 #whoweare {
   background-color: #59c3c3;
+  color: #fafafa;
+}
+
+#whoweare h2 {
   color: #fafafa;
 }
 

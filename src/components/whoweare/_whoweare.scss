@@ -3,6 +3,9 @@
     color: $cyan;
   }
   color: $white;
+  h2 {
+    color: $white;
+  }
   p {
     @include p(1.3em, center);
   }

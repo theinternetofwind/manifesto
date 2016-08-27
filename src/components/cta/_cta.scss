@@ -6,9 +6,21 @@
   p {
     @include p(1.8em, center);
   }
+
   .btn {
     @include t(1em, center);
-    position: relative;
+    //@include corners(15px);
+
+    overflow:hidden;
+    color:#fff;
+    outline:none;
+    border:none;
+    padding:20px;
+    display:block;
+    margin:50px auto;
+    cursor:pointer;
+    background-color:transparent;
+    position:relative;
     z-index: 10;
     left: 50%;
     font: {
@@ -22,13 +34,36 @@
     margin: {
       left: -300px;
     }
-    border: none;
+    border: 2px solid $green;
     background: {
-      color: $cyan;
+      color: $purpleGrey;
     }
-    color: $white;
+    color: $green;
+
+
+    @include transition(all 0.5s ease);
+
+    .layer {
+      height: 50px;
+      font-size: 24px;
+      position:absolute;
+      top:-72px;
+      width:100%;
+      left:0;
+      padding-top: 22px;
+      background-color:$green;
+      color: $purpleGrey;
+      @include transition(all 0.3s ease);
+    }
+
+    &:hover {
+      .layer {
+        top:0;
+      }
+    }
   }
 }
+
 
 @media screen and (min-width : 481px) and (max-width : 768px) {
   #cta {
