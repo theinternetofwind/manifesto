@@ -1,4 +1,12 @@
 # The internet of Wind Manifesto Website
+---
+---
+## Please read and sign our manifesto on the website [internetofwind.org](http://internetofwind.org)
+
+---
+---
+
+### WEBSITE DEVELOPMENT NOTES
 
 Development is done within a virtual vagrant machine
 
