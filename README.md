@@ -24,29 +24,23 @@ to shut down the machine use:
 vagrant halt
 ```
 
-GIT-FLOW WORKFLOW
------------------
+#### GIT-FLOW WORKFLOW
 
 Repo convention used is "git-flow".
 
 The simplest tutorial about this workflow is available [here](http://danielkummer.github.io/git-flow-cheatsheet/)
 
 
-PROJECT FOLDERS
----------------
+#### PROJECT FOLDERS
 
-**src**
-All the source code is here
+**src** All the source code is here
 
-**build**
-here the development stage compiled files (not optimized for production)
+**build** here the development stage compiled files (not optimized for production)
 
-**optimized**
-here the files optimized for production (minified, etc)
+**optimized** here the files optimized for production (minified, etc)
 
 
-DEVELOPMENT SHELL
------------------
+#### DEVELOPMENT SHELL
 
 Into the vagrant machine follow these steps:
 
@@ -59,6 +53,7 @@ make develop
 ```
 
 STEP 2. Start the local server
+
 On another terminal
 ```bash
 vagrant ssh
@@ -68,8 +63,7 @@ http-server -p 3000
 
 * Livereload is used. check the browser extension [here](http://livereload.com/extensions/).
 
-PRODUCTION
-----------
+#### PRODUCTION
 
 Once development is completed you can compile for production using the command:
 
