@@ -1,3 +1,4 @@
+/*-- Call to action --*/
 #cta {
   background: {
     color: #efefef;
@@ -29,10 +30,10 @@
     text: {
       transform: uppercase;
     }
-    width: 600px;
+    width: 400px;
     height: 72px;
     margin: {
-      left: -300px;
+      left: -200px;
     }
     border: 2px solid $green;
     background: {
@@ -45,7 +46,7 @@
 
     .layer {
       height: 50px;
-      font-size: 24px;
+      font-size: 1.2em;
       position:absolute;
       top:-72px;
       width:100%;
