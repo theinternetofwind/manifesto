@@ -1,3 +1,4 @@
+/*-- Signatories --*/
 #signatories {
   #signatures {
     .signature {
@@ -14,5 +15,8 @@
       p.aim {@include p(1.1em, center);}
     }
   }
-  .seeall {}
+  .seeall {
+    display: block;
+    @include p(1.2em, center);
+  }
 }
