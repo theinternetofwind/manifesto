@@ -1,12 +1,27 @@
 <section id="signatories">
   <div class="container">
-
-    <h2>Latest Signatories</h2>
-
+    <h2>The Internet of Wind Manifesto Signatories</h2>
     <div id="signatures">
+      <% signatories.items.forEach(function(item, index) { %>
+        <% if (index % 10 == 0 ) {%>
+          <% if(index/10 % 2 == 0) {%>
+            <div class="adbox">
+              <p class="ad">Help us to build a better world</p>
+              <p class = "ad"><a href="http://windstack.us13.list-manage2.com/subscribe?u=fd2b3e50f606f173eb5c832d2&id=9736400f54&group[9441][1]=1">sign the internet of wind manifesto</a></p>
+            </div>
+          <% } else { %>
+
+            <div class="adbox">
+              <p class="ad">Do you want to know more?</p>
+              <p class = "ad"><a href="/">read the internet of  wind manifesto</a></p>
+            </div>
+        <% }}; %>
+        <div class="signature">
+          <p class="name"><%= item.name  %></p>
+          <p class="organization"><%= item.org %></p>
+          <p class = "aim"><%= item.why %></p>
+        </div>
+      <% }); %>
     </div>
-
-    <a class="seeall" href="#">see all signatories</a>
-
   </div>
 </section>

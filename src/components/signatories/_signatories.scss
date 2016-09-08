@@ -14,6 +14,17 @@
       p.organization {@include p(1.1em, center);}
       p.aim {@include p(1.1em, center);}
     }
+
+    .adbox {
+      min-height: 50px;
+      border: 1px solid $lightGrey;
+      background: $cyan;
+      margin: {
+        bottom:16px;
+        top: 16px;
+      }
+      p.ad { @include p(1.4em, center);}
+    }
   }
   .seeall {
     display: block;
