@@ -5,7 +5,9 @@ var sass = require('metalsmith-sass');
 var watch = require('metalsmith-watch');
 var nodeSassGlobbing = require('node-sass-globbing');
 var copy = require('metalsmith-copy');
-var ignore = require('metalsmith-ignore')
+var ignore = require('metalsmith-ignore');
+var metadata = require('metalsmith-metadata');
+
 
 Metalsmith(__dirname)
 
@@ -40,6 +42,11 @@ Metalsmith(__dirname)
 )
 
 .use(filenames())
+
+.use(metadata(
+  {
+    "signatories": "signatories.json"
+  }))
 
 .ignore('assets')
 
