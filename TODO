@@ -1,0 +1,17 @@
+- [WIP] pagina "confidentiality bubble"
+
+- check stile signatories.html
+    components/signatories/signatories.ejs (ho inserito adbox che compare ogni dieci firme, alterandosi con un link alla pagina principale ed uno a form firma). NB. ho separato la componente signatories_latest per metterla in prima pagina, in modo che non usa jquery ed ajax.
+
+- pagina "thank you"
+- pagina "open standard"
+- pagina "sharing is a goldmine"
+- immagine open graph / update all pages link etc
+- icona su github / favicon
+- heatmap / analytics / scroll monitoring etc
+
+- press kit - txt files
+- press kit - pdf files
+- press kit - check personal pages of authors
+
+- translations
