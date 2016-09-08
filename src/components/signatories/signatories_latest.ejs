@@ -1,0 +1,16 @@
+<section id="signatories">
+  <div class="container">
+    <h2>Latest Signatories</h2>
+    <div id="signatures">
+      <% signatories.items.slice(0,3).forEach(function(item) { %>
+        <div class="signature">
+          <p class="name"><%= item.name  %></p>
+          <p class="organization"><%= item.org %></p>
+          <p class = "aim"><%= item.why %></p>
+        </div>
+      <% }); %>
+    </div>
+
+    <a class="seeall" href="/signatories.html">see all signatories</a>
+  </div>
+</section>
