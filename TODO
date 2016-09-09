@@ -1,4 +1,4 @@
-- [WIP] pagina "confidentiality bubble"
+- check style pagina "confidentiality bubble (verifica anche dimensioni immagine/ box immagine / rsponsive)
 
 - check stile signatories.html
     components/signatories/signatories.ejs (ho inserito adbox che compare ogni dieci firme, alterandosi con un link alla pagina principale ed uno a form firma). NB. ho separato la componente signatories_latest per metterla in prima pagina, in modo che non usa jquery ed ajax.
