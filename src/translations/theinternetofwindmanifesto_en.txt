@@ -1,0 +1,57 @@
+THE INTERNET OF WIND MANIFESTO
+
+We are a global movement united by the belief that the wind sector is driving and is crucial for the whole energy industry. We are convinced that actually a false competition dilemma around data sharing is blocking the natural evolution of the entire industry.
+
+We believe that
+- In the near future wind turbines will be smart, connected and able to talk the same language as people.
+- Sharing is better than locking: what is a competitive asset for the individual is a benefit for the whole wind energy industry.
+- There are no super-heroes. Community-generated knowledge is the key to create competitive industry assets.
+- Nobody shares their data and nobody knows why. This is what we call a "confidentiality bubble".
+
+We want to live in a world where everybody should be free to give their own contribution.
+
+In order to do this, we need to burst the wind data confidentiality bubble and build an open standard for wind turbine data, designed around sharing
+
+
+THE WIND DATA CONFIDENTIALITY BUBBLE
+
+A bubble is a layer between you and the outside world distorting your vision. It can become so large that it shuts out your sight. At the same time it is so easy to dissolve.
+
+In wind energy there is a huge misunderstanding about data sharing. We mean the sharing of any kind of data output by wind turbines Ex. Scada data, Rotor health monitoring, Continuous monitoring of vibrations, Structural health monitoring, etc
+
+Is there any reason not to share this data? We interviewed dozens of people within this industry and no one gave us a clear reason. Most of them just said "You simply do not give away proprietary data". Some of them were just afraid to show their mistakes in wind farm management.
+
+We believe that showing our mistakes is a treasure for the whole sector.
+
+
+BUILDING AN OPEN COMMON LANGUAGE
+
+We do not want to reinvent the wheel. We just want to publicly discuss and build shared foundations for this new world.
+
+This is only possible by developing open source platforms and open standards as an alternative to the myriad of proprietary hardware and software platforms developed by all the big players.
+
+Several definitions of “open standard” exist, often neglecting the conditions that the user must undergo to read and to implement it, for example mentioning the possibility of "reasonable terms and conditions" [ITU-T].
+
+We do not consider "reasonable" a fee that could be up hundreds of US$ per person reading the single document. Furthermore, a "reasonable" participation fee for discussing  the standards that can amount up to thousands of US$ per year is not ffeasible in our opinion. In addition, the "reasonable conditions" of usage mean that copying and sharing the standard definition is forbidden, which is contrary to our believes.
+
+Our idea of "open" is much more similar to what the Internet Engineering Task Force (IETF) has been doing since 1986 [IETF-TAO]: allowing the widest freedom in accessing both the standards and the discussions for their definition. You can download and freely distribute the standard, and simply join a mailing list to participate in its definition, all without fees.
+
+These are the open standards we advocate for, with minimal bureaucracy and driven by practical needs, as inspired by the motto:
+
+"We reject kings, presidents and voting. We believe in rough consensus and running code" (David Clark, about IETF).
+
+We believe that the wind industry is sorely lacking these aspects, and the moment to promote this renovation has already come.
+
+[IETF-TAO] https://www.ietf.org/tao.html
+[ITU-T] http://www.itu.int/en/ITU-T/ipr/Pages/open.aspx
+------------------------------------------
+
+The first version of the ‘Internet of wind manifesto’ has been written by a group of young professionals from southern Italy, listed here under. We want to live in a better world and every day we work to build it. We were born in a country where we were given the opportunity to be well prepared and researched in our sectors but traditional methods created barriers in respect to technological innovation. We demand redemption in the name of meritocracy.
+
+Francesco Paraggio, Environmental Engineer, WindStack IVS
+Giuseppe Aceto, IT Engineer, WindStack IVS, NM-2 srl
+Andrea Paraggio, UX Designer, WindStack IVS, Healthware International
+
+(c) 2016 WindStack IVS and its contributors
+
+This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License [http://creativecommons.org/licenses/by-sa/4.0/]

@@ -45,7 +45,8 @@ Metalsmith(__dirname)
 
 .use(metadata(
   {
-    "signatories": "signatories.json"
+    "signatories": "signatories.json",
+    "sources": "sources.json"
   }))
 
 .ignore('assets')

@@ -1,0 +1,13 @@
+/*-- Press Sources --*/
+#presssources {
+
+  p {
+    @include p(1.1em, center);
+  }
+
+  table {
+    width: 60%;
+    margin: auto;
+  }
+
+}

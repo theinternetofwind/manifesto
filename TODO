@@ -1,19 +1,21 @@
--[Andrea] check stile pagina "confidentiality bubble (verifica anche dimensioni immagine/ box immagine / rsponsive)
--[Andrea] check stile pagina "open standards (verifica anche dimensioni immagine/ box immagine / rsponsive)
--[Andrea] check stile signatories.html
+-check stile pagina "confidentiality bubble (verifica anche dimensioni immagine/ box immagine / rsponsive)
+-check stile pagina "open standards (verifica anche dimensioni immagine/ box immagine / rsponsive)
+-check stile signatories.html
     components/signatories/signatories.ejs (ho inserito adbox che compare ogni dieci firme, alterandosi con un link alla pagina principale ed uno a form firma). NB. ho separato la componente signatories_latest per metterla in prima pagina, in modo che non usa jquery ed ajax.
-- [Andrea] check stile pagina "thank you"
+-check stile pagina "thank you"
 
-- SETUP REDIRECT LINK SU MAILCHIMP -->
+- SETUP REDIRECT LINK SU MAILCHIMP [HO Provato, ma si deve fare dopo deploy, dive che la pagina non esiste.]
 
 - [DONE] [REMOVED] pagina "sharing is a goldmine"
 
-- immagine open graph / update all pages link etc
+- immagine open graph / update all pages open graph metadata etc
 - icona su github / favicon
 - heatmap / analytics / scroll monitoring etc
 
-- press kit - txt files
+- [DONE] press kit - txt files
 - press kit - pdf files
 - press kit - check personal pages of authors
-
-- translations
+- press kit images vectors
+- Footer with license and link to Presskit
+- CHECK LICENSE IN FOOTER / SOURCE FILES / WIKI
+- Clean Signatories and send to Matteo and Mario for new signature.

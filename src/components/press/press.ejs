@@ -1,0 +1,27 @@
+<section id="presssources">
+  <div class="container">
+    <h1>The Internet of Wind Manifesto Press Kit</h1>
+    <h2>Source files</h2>
+    <div id="sources">
+      <table>
+        <% sources.files.forEach(function(item, index) { %>
+          <tr>
+            <td><p><%= item.name %></p></td>
+            <td><p><%= item.language %></p></td>
+            <td><a href="<%= item.txt %>" target="_blank">txt</a></td> <td><a href="<%= item.pdf %>" target="_blank">pdf</a></td>
+          </tr>
+        <% }); %>
+      </table>
+    </div>
+
+    <h2>License</h2>
+    <div id="license">
+
+
+      <p>The Internet of Wind Manifesto is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+      <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a></p>
+      <p>&copy; 2016 internetofwind.org and its contributors</p>
+    </div>
+  </div>
+</div>
+</section>
