@@ -1,54 +1,34 @@
+<!DOCTYPE HTML>
+<!-- TODO -->
+<!-- INSERIRE og:image file e link N.B. Facebook recommends 1200 x 630 pixels for the og:image dimensions (info), which is an approximate aspect ratio of 1.91:1 https://www.h3xed.com/web-and-internet/how-to-use-og-image-meta-tag-facebook-reddit -->
+  <head>
+    <title>The Internet of Wind Manifesto</title>
+    <link rel="stylesheet" href="css/vendor/normalize.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/vendor/grid.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/app.css" type="text/css" media="screen">
+    <!-- You  can use Open Graph tags to customize link previews.
+Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+    <meta property="og:url"           content="http://www.internetofwind.com" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="The Internet of Wind Manifesto" />
+    <meta property="og:description"   content="A false competition dilemma around data sharing is blocking the natural evolution of the entire wind industry. Help us to build a better world." />
+    <meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
 
-<h1>Thank you for signing the manifesto</h1>
-<h2>Spread the voice</h2>
-<!--<h2>Download the template of letter to big owners</h2>-->
-<h2>Participate to discussion</h2>
-<h2>Torna al manifesto</h2>
+  </head>
 
-<!-- SHARING LINKS -->
+  <script src="http://localhost:35729/livereload.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
-<!-- TWITTER -->
-http://twitter.com/home?status=[TITLE]+[URL]
+  <script src="/app.js"></script>
 
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://internetofwind.org" data-text="I just signed the Internet of Wind manifesto! Check it out" data-size="large">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  <body>
+    <!--<% include src/components/navigation/navigation %>-->
 
-<!-- LINKED IN -->
-<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-<script type="IN/Share" data-url="http://www.internetofwind.org"></script>
+    <!-- <% include src/components/barriers/barriers %> -->
 
-<!-- GOOGLE PLUS -->
-https://plus.google.com/share?url=[URL]
+    <% include src/components/thank_you/thank_you %>
 
-<!-- EMAIL A FRIEND -->
-<a href="mailto:Enter%20an%20email?subject=The%20Internet%20of%20Wind%20Manifesto&body=Thought%20you%20might%20be%20interested%20in%20this%20http://www.internetofwind.org">
-Forward to a friend</a>
+  </body>
 
 
-<!-- FACEBOOK -->
-
-<!-- Load Facebook SDK for JavaScript -->
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
-
-	<!-- Your share button code -->
-	<div class="fb-share-button"
-		data-href="http://www.internetofwind.org"
-		data-layout="button">
-	</div>
-
-<!-- END SHARING LINKS -->
-
-<!-- PARTECIPA ALLA DISCUSSIONE -->
-
-<a href="https://github.com/theinternetofwind/Wind-Open-Data-Discussion/wiki" targer=_blank>Participate to the discussion to open standard</a>
-
-<!-- END PARTECIPA ALLA DISCUSSIONE -->
-
-<!-- TODO: -->
-<!-- SETUP REDIRECT LINK SU MAILCHIMP -->
+</html>
