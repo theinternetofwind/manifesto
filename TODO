@@ -1,11 +1,13 @@
-- check style pagina "confidentiality bubble (verifica anche dimensioni immagine/ box immagine / rsponsive)
-
-- check stile signatories.html
+-[Andrea] check stile pagina "confidentiality bubble (verifica anche dimensioni immagine/ box immagine / rsponsive)
+-[Andrea] check stile pagina "open standards (verifica anche dimensioni immagine/ box immagine / rsponsive)
+-[Andrea] check stile signatories.html
     components/signatories/signatories.ejs (ho inserito adbox che compare ogni dieci firme, alterandosi con un link alla pagina principale ed uno a form firma). NB. ho separato la componente signatories_latest per metterla in prima pagina, in modo che non usa jquery ed ajax.
+- [Andrea] check stile pagina "thank you"
 
-- pagina "thank you"
-- pagina "open standard"
-- pagina "sharing is a goldmine"
+- SETUP REDIRECT LINK SU MAILCHIMP -->
+
+- [DONE] [REMOVED] pagina "sharing is a goldmine"
+
 - immagine open graph / update all pages link etc
 - icona su github / favicon
 - heatmap / analytics / scroll monitoring etc
