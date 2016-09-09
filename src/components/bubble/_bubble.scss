@@ -1,0 +1,22 @@
+#confidentialitybubble {
+  p {
+    @include p(1.4em, center);
+  }
+  p.pBold {color: $cyan;}
+
+  .citation-box {
+    min-height: 50px;
+    border-left: 2px solid $lightGrey;
+    margin: {
+      bottom:36px;
+      top: 46px;
+    }
+    padding-left: 26px;
+
+    p {
+      @include p(1.2em, left);
+      font-style: italic;
+
+    }
+  }
+}

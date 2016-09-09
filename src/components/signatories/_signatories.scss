@@ -1,5 +1,9 @@
 /*-- Signatories --*/
 #signatories {
+  p {
+    @include p(1.4em, center);
+  }
+
   #signatures {
     .signature {
       min-height: 50px;
@@ -18,7 +22,7 @@
     .adbox {
       min-height: 50px;
       border: 1px solid $lightGrey;
-      background: $cyan;
+      //background: $cyan;
       margin: {
         bottom:16px;
         top: 16px;
