@@ -46,6 +46,8 @@ We believe that the wind industry is sorely lacking these aspects, and the momen
 [ITU-T] http://www.itu.int/en/ITU-T/ipr/Pages/open.aspx
 ------------------------------------------
 
+AUTHORS
+
 The first version of the ‘Internet of wind manifesto’ has been written by a group of young professionals from southern Italy, listed here under. We want to live in a better world and every day we work to build it. We were born in a country where we were given the opportunity to be well prepared and researched in our sectors but traditional methods created barriers in respect to technological innovation. We demand redemption in the name of meritocracy.
 
 Francesco Paraggio, Environmental Engineer, WindStack IVS
