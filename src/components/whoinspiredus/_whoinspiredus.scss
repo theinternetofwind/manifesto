@@ -1,17 +1,5 @@
 /*-- Who we are --*/
-#whoweare {
-  background: {
-    color: $cyan;
-  }
-  color: $white;
-
-  a {
-    color: $white;
-  }
-
-  h2 {
-    color: $white;
-  }
+#whoinspiredus {
   p {
     @include p(1.3em, center);
   }
@@ -29,10 +17,4 @@
   p.citation-author {
     @include t(1em, center);
   }
-}
-
-@media screen and (min-width : 481px) and (max-width : 768px) {
-}
-
-@media screen and (max-width : 480px) {
 }
