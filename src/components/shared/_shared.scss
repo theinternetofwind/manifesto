@@ -57,6 +57,12 @@ a {
   &:focus, &:hover {
     border-bottom: none;
   }
+  img {
+    border: none;
+  }
+  &.aImg {
+    border: none;
+  }
 }
 
 p {
