@@ -32,7 +32,7 @@ h6 {
 }
 
 h1 {
-  @include t(2.6em, center);
+  @include t(3em, center);
   color: $cyan;
 }
 
@@ -49,5 +49,48 @@ img {
 }
 
 a {
-  color: $bluGrey;
+  &:link, &:visited {
+    text-decoration: none;
+    color: $cyan;
+    border-bottom: 3px dotted $cyan;
+  }
+  &:focus, &:hover {
+    border-bottom: none;
+  }
+}
+
+p {
+  @include p(1.4em, center);
+}
+
+p.desc {
+  @include p(1.8em, center);
+  line-height: 1.4em;
+  margin-bottom: 40px;
+}
+
+.pBold {
+  font-weight: bold;
+}
+
+.citation-box {
+  color: $silver;
+  min-height: 50px;
+  border-left: 6px solid $cyan;
+  margin: {
+    bottom: 36px;
+    top: 46px;
+    left: 40px;
+    right: 40px;
+  }
+  padding-left: 26px;
+
+  p.citation {
+    @include p(1.2em, left);
+    font-style: italic;
+  }
+  p.author {
+    text-align: left;
+    @include p(1em, left);
+  }
 }
