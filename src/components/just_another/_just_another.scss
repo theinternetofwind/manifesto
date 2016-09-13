@@ -1,0 +1,5 @@
+#justaanother {
+  p {
+    @include p(1.4em, center);
+  }
+}
