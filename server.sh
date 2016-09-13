@@ -35,8 +35,7 @@ start_all(){
 	sleep 2
 	echo "starting server"
 	echo "NOTE: actual localhost port is specified in Vagrantfile"
-	cd /vagrant/build
-	http-server -p 3000 &
+	http-server /vagrant/build -p 3000 &
 	echo $! > $serverpidfile
 }
 
