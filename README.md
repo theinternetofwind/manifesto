@@ -63,6 +63,10 @@ http-server -p 3000
 
 * Livereload is used. check the browser extension [here](http://livereload.com/extensions/).
 
+STEP 3. Load website in the browser and remember that for some strange reasons you have to use the 3001 port instead of 3000
+
+http://127.0.0.1:3001
+
 #### PRODUCTION
 
 Once development is completed you can compile for production using the command:
