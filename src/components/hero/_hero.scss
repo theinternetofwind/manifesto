@@ -1,74 +1,78 @@
-/*-- Hero --*/
-#hero {
-  #ill {
-    width: 100%;
-    height: 320px;
-    background-color: $lightGrey;
-  }
-
-  p {
-    @include p(1.4em, center);
-  }
-
-  .elements {
-    width:80%;
-    margin: 40px auto;
-    .element {
-      margin: {
-        top: 12px;
-        bottom: 12px;
+@media only screen {
+  #hero {
+    h1 {
+      margin-top: 0;
+    }
+    p {
+      @include p(1.3em, center);
+    }
+    .contribution {
+      p {
+        font-size: 1em;
       }
-      min-height: 100px;
-      //border: 1px solid $lightGrey;
-      .icon {
-        background: rgba(255,255,255,.08);
-        width:100px;
-        height:100px;
-        float: left;
-        img {}
-      }
-      .desc {
-        @include p(1.3em, left);
-        margin: {
-          left: 120px;
+    }
+
+    .elements {
+      margin: 40px auto;
+      .element {
+        &.first {
+          margin: 0 auto 40px auto;
         }
-        padding: {
-          top: 15px;
-          right: 25px;
+        margin: 40px auto;
+        border: 1px dashed $lightGrey;
+        padding: 20px;
+        .icon {
+          text-align: center;
+          img {}
+        }
+        .desc {
+          @include p(1.1em, center);
+          padding: {
+            top: 15px;
+            right: 25px;
+          }
         }
       }
     }
   }
 }
 
-@media screen and (min-width : 481px) and (max-width : 768px) {
-  .elements {
-    width: 100% !important;
-    .element {
-      .desc {
-      }
-      padding: {
-        bottom: 15px;
-        left: 25px;
+@media only screen and (min-width: 767px) {
+  #hero {
+    h1 {
+      margin-top: 0;
+    }
+    p {
+      @include p(1.4em, center);
+    }
+    .contribution {
+      p {
+        font-size: 1.1em;
       }
     }
-  }
-}
 
-@media screen and (max-width : 480px) {
-  .elements {
-    width: 100% !important;
-    .element {
-      .icon {
-        display: none;
-      }
-      .desc {
-        margin: {
-          left: 0 !important;
+    .elements {
+      width:80%;
+      .element {
+        &.first {
+          margin: 0 auto 20px auto;
         }
-        padding: {
-          bottom: 15px;
-          left: 25px;
+        margin: 20px auto;
+        min-height: 100px;
+        .icon {
+          float: left;
+          text-align: left;
+          img {}
+        }
+        .desc {
+          @include p(1.2em, left);
+          margin: {
+            left: 120px;
+          }
+          padding: {
+            top: 15px;
+            right: 25px;
+          }
         }
       }
     }
