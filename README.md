@@ -1,10 +1,8 @@
 # The internet of Wind Manifesto Website
----
----
+
 ## Please read and sign our manifesto on the website [internetofwind.org](http://internetofwind.org)
 
----
----
+## ---
 
 ### WEBSITE DEVELOPMENT NOTES
 
@@ -13,11 +11,13 @@ Development is done within a virtual vagrant machine
 ```bash
 vagrant up
 ```
+
 Once the machine is initialized access to it with:
 
 ```bash
 vagrant ssh
 ```
+
 to shut down the machine use:
 
 ```bash
@@ -30,7 +30,6 @@ Repo convention used is "git-flow".
 
 The simplest tutorial about this workflow is available [here](http://danielkummer.github.io/git-flow-cheatsheet/)
 
-
 #### PROJECT FOLDERS
 
 **src** All the source code is here
@@ -38,7 +37,6 @@ The simplest tutorial about this workflow is available [here](http://danielkumme
 **build** here the development stage compiled files (not optimized for production)
 
 **optimized** here the files optimized for production (minified, etc)
-
 
 #### DEVELOPMENT SHELL
 
@@ -55,17 +53,18 @@ make develop
 STEP 2. Start the local server
 
 On another terminal
+
 ```bash
 vagrant ssh
 cd /vagrant/build
 http-server -p 3000
 ```
 
-* Livereload is used. check the browser extension [here](http://livereload.com/extensions/).
+- Livereload is used. check the browser extension [here](http://livereload.com/extensions/).
 
-STEP 3. Load website in the browser and remember that for some strange reasons you have to use the 3001 port instead of 3000
+STEP 3. Load website in the browser and remember that you have to use the 3001 port instead of 3000
 
-http://127.0.0.1:3001
+<http://127.0.0.1:3001>
 
 #### PRODUCTION
 
@@ -74,6 +73,7 @@ Once development is completed you can compile for production using the command:
 ```bash
 make optimize
 ```
+
 results are written in the folder /optimized
 
 #### DEPLOY
@@ -85,6 +85,5 @@ make deploy
 ```
 
 to deploy on the web.
-
 
 Fair wind
