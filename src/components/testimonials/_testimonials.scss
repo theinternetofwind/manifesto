@@ -8,14 +8,32 @@
         margin: 35px auto;
         .photo {
           text-align: center;
-          img {}
+          margin-bottom: 20px;
+          a {
+            &:link, &:visited {
+              border: none;
+            }
+            &:hover, &:focus {
+            }
+            img {}
+          }
         }
         .text {
           h3 {
-            @include t(1.2em, center);
+            @include t(1.4em, center);
+            margin-top: 0;
           }
           p {
-            @include p(1.2em, center);
+            &.jobtitle {
+              @include p(1em, center);
+              color: $grey;
+              font-style: italic;
+              margin-top: 0;
+            }
+            &.phrase {
+              @include p(1.2em, center);
+              margin-top: 30px;
+            }
           }
         }
       }
@@ -29,21 +47,25 @@
     .list {
       .testimonial {
         .photo {
+          margin-bottom: 0;
           float: left;
           img {}
         }
         .text {
           margin-left: 250px;
-          padding-top: 10px;
           h3 {
-            @include t(1.2em, left);
+            @include t(1.4em, left);
           }
           p {
-            @include p(1.2em, left);
+            &.jobtitle {
+              @include p(1em, left);
+            }
+            &.phrase {
+              @include p(1.2em, left);
+            }
           }
         }
       }
     }
   }
-
 }
