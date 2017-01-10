@@ -29,7 +29,6 @@
           @include p(1.1em, center);
           padding: {
             top: 15px;
-            right: 25px;
           }
         }
       }
@@ -68,10 +67,6 @@
           @include p(1.2em, left);
           margin: {
             left: 120px;
-          }
-          padding: {
-            top: 15px;
-            right: 25px;
           }
         }
       }
