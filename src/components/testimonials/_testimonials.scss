@@ -1,0 +1,49 @@
+@media only screen {
+  #testimonials {
+    h2 {}
+    .list {
+      .testimonial {
+        border: 1px dashed $lightGrey;
+        padding: 25px;
+        margin: 35px auto;
+        .photo {
+          text-align: center;
+          img {}
+        }
+        .text {
+          h3 {
+            @include t(1.2em, center);
+          }
+          p {
+            @include p(1.2em, center);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  #testimonials {
+    h2 {}
+    .list {
+      .testimonial {
+        .photo {
+          float: left;
+          img {}
+        }
+        .text {
+          margin-left: 250px;
+          padding-top: 10px;
+          h3 {
+            @include t(1.2em, left);
+          }
+          p {
+            @include p(1.2em, left);
+          }
+        }
+      }
+    }
+  }
+
+}
